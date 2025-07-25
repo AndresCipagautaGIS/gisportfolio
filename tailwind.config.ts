@@ -61,7 +61,29 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'neon-green': 'hsl(var(--neon-green))',
+				'neon-cyan': 'hsl(var(--neon-cyan))',
+				'neon-magenta': 'hsl(var(--neon-magenta))',
+				'electric-blue': 'hsl(var(--electric-blue))',
+				'matrix-green': 'hsl(var(--matrix-green))',
+				'deep-space': 'hsl(var(--deep-space))',
+				'terminal-green': 'hsl(var(--terminal-green))'
+			},
+			backgroundImage: {
+				'gradient-cyber': 'var(--gradient-cyber)',
+				'gradient-matrix': 'var(--gradient-matrix)',
+				'gradient-terminal': 'var(--gradient-terminal)'
+			},
+			boxShadow: {
+				'glow-green': 'var(--glow-green)',
+				'glow-cyan': 'var(--glow-cyan)',
+				'glow-magenta': 'var(--glow-magenta)',
+				'cyber': 'var(--shadow-cyber)'
+			},
+			fontFamily: {
+				'mono': ['JetBrains Mono', 'Fira Code', 'monospace'],
+				'orbitron': ['Orbitron', 'monospace']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
