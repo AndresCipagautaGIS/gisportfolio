@@ -70,6 +70,7 @@ const Hero = () => {
             variant="outline" 
             size="lg" 
             className="font-mono border-neon-cyan text-neon-cyan hover:bg-neon-cyan/10 hover:shadow-glow-cyan transition-all duration-300"
+            onClick={() => window.open('https://www.linkedin.com/in/andres-cipagauta-gis/', '_blank')}
           >
             Contactar
           </Button>
