@@ -176,7 +176,10 @@ const Services = () => {
                 soluciones SIG innovadoras en tu proyecto
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button className="font-mono bg-gradient-cyber hover:shadow-glow-green transition-all duration-300">
+                <Button 
+                  className="font-mono bg-gradient-cyber hover:shadow-glow-green transition-all duration-300"
+                  onClick={() => window.open('https://wa.me/573057288260', '_blank')}
+                >
                   Iniciar Proyecto
                 </Button>
                 <Button 
